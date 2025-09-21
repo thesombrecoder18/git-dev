@@ -470,12 +470,15 @@ section {
     grid-template-columns: 1fr;
     gap: 3rem;
     align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 @media (min-width: 968px) {
     .about__content {
-        grid-template-columns: 1fr 1fr;
-        gap: 4rem;
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 }
 
